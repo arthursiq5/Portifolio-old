@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body{
+    font-family: Times, serif;
+    text-align: justify;
+    background-color: #EBE9E9;
+    color: rgba(0, 0, 0, 1);
+    word-wrap: break-word;
+}
+
+p{
+    text-align: justify;
+    text-indent: 1pt;
+}
+
+
+.lateralesquerda{
+    display: block;
+    width: 30%;
+    border-right: 0.01em solid rgba(193, 193, 193, 0.7);
+    float: left;
+    background-color: rgb(55, 164, 220);
+    margin-top: -0.47em;
+    margin-left:-6pt;
+    box-shadow: 0px 0px 10px rgba(193,193,193,0.6);
+    color: white;
+    font-size: 15pt;
+}
+
+figure {
+    position: relative;
+    border: 0 solid white;
+    margin: 0;
+    padding: 0;
+}
+
+figure img{
+    width: 100%;
+    height: 100%;
+}
+
+figure figcaption{
+	position: absolute;
+	top: 75%;
+	color: #efefef;
+    text-shadow: black 3px 3px 3px;
+	width: 150%;
+	height: 150%;
+	padding: 10px;
+	box-sizing: border-box;
+    font-size: 25px;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 18em;
+    height: 0.5em;
+    position: relative;
+    left: 4em;
+    border-radius: 5px;
+    background-color: #3071a9;
+    outline: none;
+}
+
+.campo::-webkit-slider-thumb{
+    all: unset;
+    -webkit-appearance: none;
+
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: blue;
+}
+
+.blocosesq{
+    position: relative;
+    display: flex;
+    margin: 10pt;
+}
+
+.biografia{
+
+    padding: 0pt;
+}
+
+
+p.biografia{
+    margin: 0pt;
+    padding: 0pt;
+}
+.email{
+    display: block;
+}
+
+.fone{
+    display: block;
+}
+
+.lateraldireita{
+    display: block;
+}
+
+.icone{
+    display: block;
+    font-size: 3.4em;
+    margin: 4.5%;
+}
+
+.lateraldireita{
+    position: relative;
+    float:left;
+}
+
+.grupo{
+    position: relative;
+    display: flex;
+    width: 50%
+    top: 2em;
+    left: 2em;
+    padding: 1em;
+    margin-left: 10em;
+    margin-top: 2em;
+    background-color: white;
+    border: 1px solid rgba(193, 193, 193, 0.3);
+    border-radius: 1px;
+    box-shadow: 0px 0px 10px rgba(193,193,193,0.5);
+    transition: 3s;
+}
+
+hr{
+    display: block;
+    background-color: #444;
+    color: #555;
+    height:0.01px;
+}
+
+.blocointerno{
+    display: block;
+    box-sizing: border-box;
+    width: 43em;
+    left: 25em;
+    margin-left: -15;
+}
+
+.interesses:hover{
+    background-color: #FFFFF0;
+}
+
+.experiencia:hover{
+    background-color: #FFFAFA;
+}
+
+.educacao:hover{
+    background-color: #E0FFFF;
+}
+
+#blocoicones{
+    display: block;
+    width: 40em;
+
+}
